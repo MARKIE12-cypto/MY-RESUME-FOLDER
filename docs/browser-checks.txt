@@ -1,0 +1,2 @@
+Browser verification: Microsoft Edge, local Vite server
+Passed: all five sections; welcome button; every skills and projects filter; empty and invalid-email validation; controlled message counter; successful demo submission and reset; whitespace validation; mobile navigation; 390px and 320px overflow checks; no JavaScript exceptions.

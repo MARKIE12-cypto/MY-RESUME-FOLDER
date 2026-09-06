@@ -1,0 +1,40 @@
+.card {
+  padding: 20px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: border-color .2s;
+}
+.card:hover {
+  border-color: #5c8e78;
+}
+.symbol {
+  background: #89e5bc0d;
+  border: 1px solid #89e5bc24;
+  color: var(--accent);
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  font: 12px monospace;
+  flex-shrink: 0;
+}
+.card h3 {
+  font-size: 13px;
+  margin: 0 0 5px;
+}
+.card p {
+  font-size: 10px;
+  color: var(--muted);
+  margin: 0;
+}
+.experience {
+  font-size: 9px;
+  color: var(--accent);
+  margin-left: auto;
+  white-space: nowrap;
+}
